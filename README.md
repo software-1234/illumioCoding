@@ -1,5 +1,4 @@
 # Illumio Coding Assignment, PCE team (Avenger)
-### ReadMe.md
 
 Submission by : Eric Zhou 
 
