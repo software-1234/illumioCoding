@@ -3,8 +3,7 @@
 Submission by : Eric Zhou 
 
 ## Solution design
-I created a class in java (Firewall.java). 
-I used the Buffered Reader library to parse the CSV file containing the rules. I went through line by line to figure out what 
+I parsed through the rule CSV file using the buffered reader library, going through line by line to figure out what 
 to add to my HashMap. I used  HashMap<String, ArrayList<String>> because I wanted to be able to have a single value that maps
 to multiple keys. The key is the concatended string of the first two parameters: direction and protocol and the value is the 
 ArrayList of rules that have those two in them. This map gets returned and then when checking for acceptance, the acceptance 
@@ -31,5 +30,5 @@ null, empty strings, MAX_INTEGER, etc. to see if those would work.
 
 
 ### Teams Preference
-1. Policy
-2. Platform
+1. Platform
+2. Policy
